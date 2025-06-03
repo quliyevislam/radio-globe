@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THREE-JS-APP</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+<main>
+    <audio src="http://78.109.52.73:8000/listening-from-radio-garden-1696020096"></audio>
+
+    <div class="loading-spinner">
+        <div></div>
+    </div>
+
+    <div class="connection-error">
+        <span>Connection error. Please try again.</span>
+    </div>
+
+    <div class="container">
+        <div class="station-info">
+            <p class="station">Baku Jukebox</p>
+            <p class="country">Azerbaijan</p>
+        </div>
+
+        <div class="audio-control">
+            <img src="./src/assets/before-icon.svg" class="before-button" alt="before">
+            <img src="./src/assets/play-icon.svg" class="pause-start-button" alt="play-pause">
+            <img src="./src/assets/next-icon.svg" class="next-button" alt="next">
+            <input class="volume" min="0" max="1" step="0.01" value="0.5" type="range">
+        </div>
+    </div>
+    <canvas></canvas>
+</main>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
