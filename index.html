@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THREE-JS-APP</title>
+  <script type="module" crossorigin src="/radio-globe/assets/index-DVzDgh4N.js"></script>
+  <link rel="stylesheet" crossorigin href="/radio-globe/assets/index-BjTYBseg.css">
+</head>
+<body>
+<main>
+    <audio src="http://78.109.52.73:8000/listening-from-radio-garden-1696020096"></audio>
+
+    <div class="loading-spinner">
+        <div></div>
+    </div>
+
+    <div class="connection-error">
+        <span>Connection error. Please try again.</span>
+    </div>
+
+    <div class="container">
+        <div class="station-info">
+            <p class="station">Baku Jukebox</p>
+            <p class="country">Azerbaijan</p>
+        </div>
+
+        <div class="audio-control">
+            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%20width='64'%20height='64'%3e%3crect%20x='10'%20y='16'%20width='4'%20height='32'%20fill='white'/%3e%3cpolygon%20points='12,32%2032,48%2032,16'%20fill='white'/%3e%3cpolygon%20points='28,32%2048,48%2048,16'%20fill='white'/%3e%3c/svg%3e" class="before-button" alt="before">
+            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%20width='64'%20height='64'%3e%3cpolygon%20points='20,16%2020,48%2048,32'%20fill='white'/%3e%3c/svg%3e" class="pause-start-button" alt="play-pause">
+            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%20width='64'%20height='64'%3e%3cpolygon%20points='12,16%2012,48%2032,32'%20fill='white'/%3e%3cpolygon%20points='28,16%2028,48%2048,32'%20fill='white'/%3e%3crect%20x='50'%20y='16'%20width='4'%20height='32'%20fill='white'/%3e%3c/svg%3e" class="next-button" alt="next">
+            <input class="volume" min="0" max="1" step="0.01" value="0.5" type="range">
+        </div>
+    </div>
+    <canvas></canvas>
+</main>
+</body>
+</html>
